@@ -13,12 +13,18 @@ a {
 ul {
   list-style: none;
 }
-.active {
+
+/* navbar */
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar a:hover {
   color: #fc036b;
   font-weight: bold;
   text-decoration: underline;
 }
-/* navbar */
 
 .navbar {
   position: absolute;
@@ -116,6 +122,9 @@ header {
   }
   .nav-links li a {
     color: whitesmoke;
+  }
+  .row {
+    flex-direction: column;
   }
 }
 
@@ -233,5 +242,5 @@ body {
 }
 .carousel-inner img {
   height: 40vh;
-  object-fit: cover; 
+  object-fit: cover;
 }
